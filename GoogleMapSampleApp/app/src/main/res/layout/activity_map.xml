@@ -56,4 +56,23 @@
         android:id="@+id/ic_gps"
         android:src="@drawable/ic_gps"
         />
+
+    <ImageView
+        android:id="@+id/place_picker"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/relative_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_map"
+        />
+    <ImageView
+        android:id="@+id/place_info"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/place_picker"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_info"
+        />
 </RelativeLayout>

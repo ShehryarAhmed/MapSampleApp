@@ -55,7 +55,7 @@ import java.util.concurrent.TimeoutException;
  * {@link AutocompletePrediction} results from the API are frozen and stored directly in this
  * adapter. (See {@link AutocompletePrediction#freeze()}.)
  */
-public class PlaceAutoCompleteAdapter
+public class PlaceAutocompleteAdapter
         extends ArrayAdapter<AutocompletePrediction> implements Filterable {
 
     private static final String TAG = "PlaceAutocompleteAdapter";
@@ -87,7 +87,7 @@ public class PlaceAutoCompleteAdapter
      *
      * @see android.widget.ArrayAdapter#ArrayAdapter(android.content.Context, int)
      */
-    public PlaceAutoCompleteAdapter(Context context, GoogleApiClient googleApiClient,
+    public PlaceAutocompleteAdapter(Context context, GoogleApiClient googleApiClient,
                                     LatLngBounds bounds, AutocompleteFilter filter) {
         super(context, android.R.layout.simple_expandable_list_item_2, android.R.id.text1);
         mGoogleApiClient = googleApiClient;

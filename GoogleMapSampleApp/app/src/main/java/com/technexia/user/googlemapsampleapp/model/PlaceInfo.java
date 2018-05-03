@@ -11,7 +11,7 @@ public class PlaceInfo {
     private String id;
     private Uri websiteUri;
     private LatLng latLng;
-    private float ratting;
+    private float rating;
     private String attributions;
 
     public PlaceInfo() {
@@ -26,7 +26,7 @@ public class PlaceInfo {
         this.id = id;
         this.websiteUri = websiteUri;
         this.latLng = latLng;
-        this.ratting = ratting;
+        this.rating = ratting;
         this.attributions = attributions;
     }
 
@@ -70,20 +70,20 @@ public class PlaceInfo {
         this.websiteUri = websiteUri;
     }
 
-    public LatLng getLatLng() {
+    public LatLng getLatlng() {
         return latLng;
     }
 
-    public void setLatLng(LatLng latLng) {
+    public void setLatlng(LatLng latLng) {
         this.latLng = latLng;
     }
 
-    public float getRatting() {
-        return ratting;
+    public float getRating() {
+        return rating;
     }
 
-    public void setRatting(float ratting) {
-        this.ratting = ratting;
+    public void setRating(float rating) {
+        this.rating = rating;
     }
 
     public String getAttributions() {
